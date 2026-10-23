@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="cGradG" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFE885"/><stop offset="30%" stop-color="#FFD23F"/><stop offset="70%" stop-color="#E59B00"/><stop offset="100%" stop-color="#A56200"/></radialGradient>
+    <linearGradient id="rGradG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFF5B8"/><stop offset="50%" stop-color="#D98A00"/><stop offset="100%" stop-color="#733F00"/></linearGradient>
+    <filter id="shG" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#6B3800" flood-opacity="0.45"/></filter>
+  </defs>
+  <circle cx="256" cy="256" r="246" fill="url(#rGradG)"/><circle cx="256" cy="256" r="226" fill="url(#cGradG)"/><circle cx="256" cy="256" r="212" fill="none" stroke="#FFF7C2" stroke-width="4" opacity="0.6"/><circle cx="451.0" cy="256.0" r="5" fill="#8A4A00"/>
+<circle cx="448.0" cy="289.9" r="5" fill="#8A4A00"/>
+<circle cx="439.2" cy="322.7" r="5" fill="#8A4A00"/>
+<circle cx="424.9" cy="353.5" r="5" fill="#8A4A00"/>
+<circle cx="405.4" cy="381.3" r="5" fill="#8A4A00"/>
+<circle cx="381.3" cy="405.4" r="5" fill="#8A4A00"/>
+<circle cx="353.5" cy="424.9" r="5" fill="#8A4A00"/>
+<circle cx="322.7" cy="439.2" r="5" fill="#8A4A00"/>
+<circle cx="289.9" cy="448.0" r="5" fill="#8A4A00"/>
+<circle cx="256.0" cy="451.0" r="5" fill="#8A4A00"/>
+<circle cx="222.1" cy="448.0" r="5" fill="#8A4A00"/>
+<circle cx="189.3" cy="439.2" r="5" fill="#8A4A00"/>
+<circle cx="158.5" cy="424.9" r="5" fill="#8A4A00"/>
+<circle cx="130.7" cy="405.4" r="5" fill="#8A4A00"/>
+<circle cx="106.6" cy="381.3" r="5" fill="#8A4A00"/>
+<circle cx="87.1" cy="353.5" r="5" fill="#8A4A00"/>
+<circle cx="72.8" cy="322.7" r="5" fill="#8A4A00"/>
+<circle cx="64.0" cy="289.9" r="5" fill="#8A4A00"/>
+<circle cx="61.0" cy="256.0" r="5" fill="#8A4A00"/>
+<circle cx="64.0" cy="222.1" r="5" fill="#8A4A00"/>
+<circle cx="72.8" cy="189.3" r="5" fill="#8A4A00"/>
+<circle cx="87.1" cy="158.5" r="5" fill="#8A4A00"/>
+<circle cx="106.6" cy="130.7" r="5" fill="#8A4A00"/>
+<circle cx="130.7" cy="106.6" r="5" fill="#8A4A00"/>
+<circle cx="158.5" cy="87.1" r="5" fill="#8A4A00"/>
+<circle cx="189.3" cy="72.8" r="5" fill="#8A4A00"/>
+<circle cx="222.1" cy="64.0" r="5" fill="#8A4A00"/>
+<circle cx="256.0" cy="61.0" r="5" fill="#8A4A00"/>
+<circle cx="289.9" cy="64.0" r="5" fill="#8A4A00"/>
+<circle cx="322.7" cy="72.8" r="5" fill="#8A4A00"/>
+<circle cx="353.5" cy="87.1" r="5" fill="#8A4A00"/>
+<circle cx="381.3" cy="106.6" r="5" fill="#8A4A00"/>
+<circle cx="405.4" cy="130.7" r="5" fill="#8A4A00"/>
+<circle cx="424.9" cy="158.5" r="5" fill="#8A4A00"/>
+<circle cx="439.2" cy="189.3" r="5" fill="#8A4A00"/>
+<circle cx="448.0" cy="222.1" r="5" fill="#8A4A00"/>
+
+  <g filter="url(#shG)"><polygon points="256,155 330,198 330,283 256,325 182,283 182,198" fill="#FFDC52" stroke="#8A4A00" stroke-width="8" stroke-linejoin="round"/><polygon points="256,175 312,207 312,273 256,305 200,273 200,207" fill="none" stroke="#8A4A00" stroke-width="5"/><circle cx="256" cy="240" r="24" fill="#FFD23F" stroke="#8A4A00" stroke-width="6"/><circle cx="256" cy="240" r="8" fill="#8A4A00"/><path d="M 210 360 C 235 345 277 345 302 360" fill="none" stroke="#8A4A00" stroke-width="7" stroke-linecap="round"/></g>
+</svg>

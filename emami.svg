@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="cGrad" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFE885"/><stop offset="30%" stop-color="#FFD23F"/><stop offset="70%" stop-color="#E59B00"/><stop offset="100%" stop-color="#A56200"/></radialGradient>
+    <linearGradient id="rGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFF5B8"/><stop offset="50%" stop-color="#D98A00"/><stop offset="100%" stop-color="#733F00"/></linearGradient>
+    <filter id="emb" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#733F00" flood-opacity="0.5"/></filter>
+  </defs>
+  <circle cx="256" cy="256" r="246" fill="url(#rGrad)"/><circle cx="256" cy="256" r="226" fill="url(#cGrad)"/><circle cx="256" cy="256" r="212" fill="none" stroke="#FFF7C2" stroke-width="4" opacity="0.6"/><circle cx="256" cy="256" r="202" fill="none" stroke="#9E6200" stroke-width="3" opacity="0.7"/>
+  <g filter="url(#emb)" fill="#8A4A00" stroke="#6E3800" stroke-linejoin="round">
+    <path d="M 168 180 L 178 180 L 180 320 L 166 320 Z"/><path d="M 164 180 L 182 180 L 182 172 L 164 172 Z M 166 172 L 173 145 L 180 172 Z"/><circle cx="173" cy="142" r="3"/>
+    <path d="M 334 180 L 344 180 L 346 320 L 332 320 Z"/><path d="M 330 180 L 348 180 L 348 172 L 330 172 Z M 332 172 L 339 145 L 346 172 Z"/><circle cx="339" cy="142" r="3"/>
+    <path d="M 216 260 C 216 200 240 165 256 150 C 272 165 296 200 296 260 Z"/><line x1="256" y1="150" x2="256" y2="132" stroke="#6E3800" stroke-width="4"/><circle cx="256" cy="130" r="4"/>
+    <rect x="180" y="260" width="152" height="60" rx="4"/><path d="M 236 320 L 236 285 C 236 275 276 275 276 285 L 276 320 Z" fill="#FFD23F"/><path d="M 194 320 L 194 295 C 194 288 214 288 214 295 L 214 320 Z" fill="#FFD23F"/><path d="M 298 320 L 298 295 C 298 288 318 288 318 295 L 318 320 Z" fill="#FFD23F"/><rect x="150" y="320" width="212" height="12" rx="4"/><path d="M 200 355 Q 256 372 312 355 Q 256 385 200 355 Z" fill="#8A4A00"/>
+  </g>
+</svg>

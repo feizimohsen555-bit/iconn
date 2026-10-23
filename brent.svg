@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="oilBg" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#3A3D40"/>
+      <stop offset="40%" stop-color="#232629"/>
+      <stop offset="80%" stop-color="#141618"/>
+      <stop offset="100%" stop-color="#0A0B0C"/>
+    </radialGradient>
+    <linearGradient id="oilRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C757D"/>
+      <stop offset="50%" stop-color="#343A40"/>
+      <stop offset="100%" stop-color="#111315"/>
+    </linearGradient>
+    <linearGradient id="goldDrop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE072"/>
+      <stop offset="60%" stop-color="#F5A623"/>
+      <stop offset="100%" stop-color="#B86E00"/>
+    </linearGradient>
+    <filter id="oilShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <circle cx="256" cy="256" r="246" fill="url(#oilRim)"/>
+  <circle cx="256" cy="256" r="226" fill="url(#oilBg)"/>
+  <circle cx="256" cy="256" r="212" fill="none" stroke="#4E555C" stroke-width="3" opacity="0.6"/>
+  <circle cx="256" cy="256" r="202" fill="none" stroke="#1D2124" stroke-width="2"/>
+  <g filter="url(#oilShadow)" stroke-linejoin="round">
+    <path d="M 170 180 C 170 160 342 160 342 180 L 342 335 C 342 355 170 355 170 335 Z" fill="#202326" stroke="#4A5056" stroke-width="6"/>
+    <path d="M 170 230 C 190 245 322 245 342 230" fill="none" stroke="#5A626A" stroke-width="5"/>
+    <path d="M 170 285 C 190 300 322 300 342 285" fill="none" stroke="#5A626A" stroke-width="5"/>
+    <ellipse cx="256" cy="180" rx="86" ry="24" fill="#2E3236" stroke="#5A626A" stroke-width="5"/>
+    <ellipse cx="256" cy="180" rx="66" ry="16" fill="none" stroke="#181A1C" stroke-width="3"/>
+    <circle cx="225" cy="178" r="7" fill="#181A1C"/>
+    <path d="M 256 225 C 256 225 284 265 284 282 C 284 298 271 310 256 310 C 241 310 228 298 228 282 C 228 265 256 225 256 225 Z" fill="url(#goldDrop)" stroke="#FFD036" stroke-width="2"/>
+    <circle cx="266" cy="280" r="4" fill="#FFFFFF" opacity="0.6"/>
+  </g>
+</svg>

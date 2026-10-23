@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="cGradM" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFE885"/><stop offset="30%" stop-color="#FFD23F"/><stop offset="70%" stop-color="#E59B00"/><stop offset="100%" stop-color="#A56200"/></radialGradient>
+    <linearGradient id="rGradM" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFF5B8"/><stop offset="50%" stop-color="#D98A00"/><stop offset="100%" stop-color="#733F00"/></linearGradient>
+    <filter id="shM" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#6B3800" flood-opacity="0.45"/></filter>
+  </defs>
+  <circle cx="256" cy="256" r="246" fill="url(#rGradM)"/><circle cx="256" cy="256" r="226" fill="url(#cGradM)"/><circle cx="256" cy="256" r="212" fill="none" stroke="#FFF7C2" stroke-width="4" opacity="0.6"/>
+  <g filter="url(#shM)" stroke="#8A4A00" stroke-linejoin="round" fill="none">
+    <line x1="256" y1="150" x2="256" y2="340" stroke-width="8" stroke-linecap="round"/><circle cx="256" cy="145" r="9" fill="#FFDC52" stroke-width="6"/><path d="M 215 340 L 297 340 L 285 360 L 227 360 Z" fill="#FFDC52" stroke-width="6"/>
+    <line x1="160" y1="185" x2="352" y2="185" stroke-width="8" stroke-linecap="round"/><circle cx="256" cy="185" r="7" fill="#8A4A00"/>
+    <line x1="160" y1="185" x2="135" y2="260" stroke-width="4"/><line x1="160" y1="185" x2="185" y2="260" stroke-width="4"/><path d="M 125 260 Q 160 285 195 260 Z" fill="#FFDC52" stroke-width="5"/>
+    <line x1="352" y1="185" x2="327" y2="260" stroke-width="4"/><line x1="352" y1="185" x2="377" y2="260" stroke-width="4"/><path d="M 317 260 Q 352 285 387 260 Z" fill="#FFDC52" stroke-width="5"/>
+  </g>
+</svg>

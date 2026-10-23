@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="cGradA" cx="35%" cy="30%" r="70%"><stop offset="0%" stop-color="#FFE885"/><stop offset="30%" stop-color="#FFD23F"/><stop offset="70%" stop-color="#E59B00"/><stop offset="100%" stop-color="#A56200"/></radialGradient>
+    <linearGradient id="rGradA" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFF5B8"/><stop offset="50%" stop-color="#D98A00"/><stop offset="100%" stop-color="#733F00"/></linearGradient>
+    <filter id="shA" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#6B3800" flood-opacity="0.45"/></filter>
+  </defs>
+  <circle cx="256" cy="256" r="246" fill="url(#rGradA)"/><circle cx="256" cy="256" r="226" fill="url(#cGradA)"/><circle cx="256" cy="256" r="212" fill="none" stroke="#FFF7C2" stroke-width="4" opacity="0.6"/><circle cx="256" cy="256" r="202" fill="none" stroke="#9E6200" stroke-width="3" opacity="0.7"/>
+  <g filter="url(#shA)"><polygon points="256.0,121.0 298.5,182.4 372.9,188.5 341.0,256.0 372.9,323.5 298.5,329.6 256.0,391.0 213.5,329.6 139.1,323.5 171.0,256.0 139.1,188.5 213.5,182.4" fill="#FFDC52" stroke="#8A4A00" stroke-width="7" stroke-linejoin="round"/><circle cx="256.0" cy="201.0" r="32" fill="none" stroke="#8A4A00" stroke-width="7"/>
+<circle cx="303.6" cy="228.5" r="32" fill="none" stroke="#8A4A00" stroke-width="7"/>
+<circle cx="303.6" cy="283.5" r="32" fill="none" stroke="#8A4A00" stroke-width="7"/>
+<circle cx="256.0" cy="311.0" r="32" fill="none" stroke="#8A4A00" stroke-width="7"/>
+<circle cx="208.4" cy="283.5" r="32" fill="none" stroke="#8A4A00" stroke-width="7"/>
+<circle cx="208.4" cy="228.5" r="32" fill="none" stroke="#8A4A00" stroke-width="7"/>
+<circle cx="256" cy="256" r="38" fill="#FFDC52" stroke="#8A4A00" stroke-width="7"/><circle cx="256" cy="256" r="14" fill="#8A4A00"/></g>
+</svg>
